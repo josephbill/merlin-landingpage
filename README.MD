@@ -96,9 +96,9 @@ Selectors
 ## configuring terminals to work with git only use this command once 
 - git config --global user.name "Yourgithubusername"
 - git config --global user.email "Yourgithubemailaddress"
-#### When a project is new , these steps are only done once at the beginning of the git process for the project 
-- git init : initializes an empty git folder for version management for your project 
-- git remote add origin repository_link : connects the local git folder to the github platform repository 
+#### When a project is new , these steps are only done once at the beginning of the git  
+- git remote add origin repository_link : connects the local git folder to the github platform repository process for the project 
+- git init : initializes an empty git folder for version management for your project
 
 #### updates and when project is new after achieving first two steps 
 - git status - checks the files that are ready to be saved to github
@@ -106,3 +106,19 @@ red :not ready , green: ready
 - git add . - adds the files to git for tracking 
 - git commit -m "commit message" - special message tagged to every version update 
 - git push -u origin master - command that will push the work from the local git folder to the repository on github
+
+### CSS Layouts 
+- Css GRID 
+- Css Flexbox 
+
+
+                                          navbar
+
+side menu                                 main content                             main content 
+
+
+                                          footer 
+
+l - r 
+12  /  4  = 3 
+4 -items
