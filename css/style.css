@@ -1,19 +1,61 @@
- button {
-                    background-color: green;
-                    color: white;
-                    padding: 10px;
+  /* 1. Make the container div become a grid container */
+                #grid-container {
+                    display: grid;
+                    grid-template-areas: 
+                    'n n n n'
+                    's m m m'
+                    'f f f f'
+                    ;
+                }
+                #navbar {
+                    grid-area: n;
+                    margin: 5px; 
+                }
+                #sideMenu {
+                    grid-area: s;
+                    margin: 5px; 
+
+                }
+                #mainContent {
+                    grid-area: m;
+                    margin: 5px; 
+
+                }
+                #footer {
+                    grid-area: f;
+                    margin: 5px; 
+                }
+
+                #flex-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                }
+
+                .center-box {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .center-box img{
+                    width: 200px;
                     border-radius: 5px;
                 }
-                #btn2 {
-                    background-color: red;
-                    color: white;
-                    padding: 10px;
-                    border-radius: 5px;
+
+                /* media queries */
+                @media screen and (max-width: 768px){
+                    #grid-container{
+                        display: grid;
+                        grid-template-areas: 
+                        'n n n n'
+                        's s s s'
+                        'm m m m'
+                        'f f f f'
+                        ;
+                    }
+                   
                 }
-                .generalStyle {
-                    background-color: yellow;
-                    border-radius: 5px;
-                    padding: 10px;
-                    color: black;
-                }
-              
+
+             
