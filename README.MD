@@ -177,3 +177,15 @@ element.eventListener('event' , action)
 
 ### from example what is innerHTML 
 is an example of an element property 
+
+
+
+###  5 minutes left - excercise 
+
+- the assessment on Friday , - add semantics to the portfolio page 
+- make github update and share 
+
+- update the HTML elements for your portfolio page to use semantics 
+
+2:55 PM . Continue 
+
