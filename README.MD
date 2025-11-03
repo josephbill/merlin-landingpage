@@ -193,3 +193,23 @@ is an example of an element property
 
 2:55 PM . Continue 
 
+
+### Errors In Programming 
+- Syntax errors - wrong typing of code formats respective to programming language 
+ - Use AI as guide - ctrl + shift + I / cmd + shift + I 
+ - Identation - how code is arranged 
+
+- Runtime errors - Errors encountered when application is running - crash the system. / feature will not work
+
+- to identify such errors  -   
+   HTMl + Javascript - browsers console 
+   Native Javascript (Nodejs) - terminal logs 
+   Python / Django  - terminal logs  
+
+- TypeError  - Errors encountered when application is running - they normally point to wrong use of a coding concept respective to the programming language 
+
+- Logical Errors - Your applications - Your application executes but the result is wrong 
+
+1 + 1  = 2
+1 * 1 = 1
+
