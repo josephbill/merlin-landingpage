@@ -1,3 +1,5 @@
+### Live deployed link
+https://josephbill.github.io/merlin-landingpage/
 ## MODERN WEB DEVELOPMENT 
 Front End : client side of the web app : what your user can see and interact with 
 Back End : server scripting of the web app : database infrastructure, server scripts
@@ -177,6 +179,8 @@ element.eventListener('event' , action)
 
 ### from example what is innerHTML 
 is an example of an element property 
+
+
 
 
 
